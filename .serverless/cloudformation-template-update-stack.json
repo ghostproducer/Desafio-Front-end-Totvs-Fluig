@@ -103,7 +103,7 @@
           "S3Bucket": {
             "Ref": "ServerlessDeploymentBucket"
           },
-          "S3Key": "serverless/my-angular-app/production/1566566025534-2019-08-23T13:13:45.534Z/my-angular-app.zip"
+          "S3Key": "serverless/my-angular-app/production/1566743294144-2019-08-25T14:28:14.144Z/my-angular-app.zip"
         },
         "FunctionName": "my-angular-app-production-api",
         "Handler": "lambda.universal",
@@ -122,14 +122,14 @@
         "IamRoleLambdaExecution"
       ]
     },
-    "ApiLambdaVersionac63kFCEgopvHKp5LijjaauLUK9jXQD3ptmtP1qD4": {
+    "ApiLambdaVersionAeoMlgmxSxfT1yxEXPclzRXJ1BxY6ePknGULFD9c": {
       "Type": "AWS::Lambda::Version",
       "DeletionPolicy": "Retain",
       "Properties": {
         "FunctionName": {
           "Ref": "ApiLambdaFunction"
         },
-        "CodeSha256": "Smn/ZiHjvCTOYLhDh0f7eoZ7lIIzh5XziYrYqgxmGqE="
+        "CodeSha256": "hdJk5X11/WDlwD5FRROdgRhXNA7GABLAv3MlbuIfNhs="
       }
     },
     "ApiGatewayRestApi": {
@@ -247,7 +247,7 @@
         "MethodResponses": []
       }
     },
-    "ApiGatewayDeployment1566566005983": {
+    "ApiGatewayDeployment1566743267813": {
       "Type": "AWS::ApiGateway::Deployment",
       "Properties": {
         "RestApiId": {
@@ -317,7 +317,7 @@
     "ApiLambdaFunctionQualifiedArn": {
       "Description": "Current Lambda function version",
       "Value": {
-        "Ref": "ApiLambdaVersionac63kFCEgopvHKp5LijjaauLUK9jXQD3ptmtP1qD4"
+        "Ref": "ApiLambdaVersionAeoMlgmxSxfT1yxEXPclzRXJ1BxY6ePknGULFD9c"
       }
     },
     "ServiceEndpoint": {
